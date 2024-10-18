@@ -28,5 +28,9 @@ namespace NorthWind.Writters
 
     public class IserviceCollection
     {
+        public void AddSingleton<T1, T2>()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
