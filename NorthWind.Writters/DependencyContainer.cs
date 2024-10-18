@@ -28,6 +28,16 @@ namespace NorthWind.Writters
 
     public class IserviceCollection
     {
+        public void AddDebugWriter()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddDebugWriter(int v)
+        {
+            throw new NotImplementedException();
+        }
+
         public void AddSingleton<T1, T2>()
         {
             throw new NotImplementedException();
